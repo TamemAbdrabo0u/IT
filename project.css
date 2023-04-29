@@ -1,0 +1,136 @@
+body{
+    background-image: url(../img/moon-light-shine-through-window-into-islamic-mosque-interior.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    background-size: cover;
+    font-family: 'Cairo', sans-serif;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    font-size: 70px;
+    text-shadow: 2px 1px 2px rgb(9, 30, 105);
+    color: #fcfcfc;
+    width: 100%
+}
+div ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    margin-top: -190px;
+  
+}
+li{
+    display: inline;
+}
+li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white
+
+}
+li a:hover{
+    border-bottom: 1px solid rgb(21, 159, 228);
+    border-radius: 2px;
+    color: rgb(247, 249, 251);
+    text-shadow: 2px 1px 2px rgb(105, 173, 224);
+ 
+}
+.T{
+    color: #2196F3;
+    text-shadow: 2px 2px 4px #002c84;
+    font-size: 20px;
+    float: left;
+    margin-top: -20px;
+    transition:0.75s;
+}
+.T:hover{
+    color: rgb(207, 226, 245);
+    border-bottom: 1px solid whitesmoke;
+    border-radius: 2px;
+    text-shadow: 1px 1px 4px rgb(238, 238, 238);
+}
+.p1{
+    margin-top: 600px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+    color: #0e7392;
+}
+
+.one img{
+    margin-top: 20%;
+    margin-right: 120px;
+    border: 2px solid rgb(0, 42, 98);
+    border-radius: 100px;
+    box-shadow: 3px 4px 9px #001432;
+    background-color: #000d21;
+    transition:0.5s;
+}
+.one img:hover{
+    border: 2px solid rgb(3, 6, 36);
+    box-shadow: 1px 4px 9px #7187b3;
+    width: 600px;
+}
+
+.two    img,
+.three  img,
+.four   img,
+.five   img,
+.six    img,
+.seven  img,
+.eight  img,
+.nine   img,
+.ten    img,
+.eleven img,
+.twelve img,
+.thirteen img,
+.fourteen img{
+   
+    margin-right: 18px;
+    border: 2px solid rgb(0, 42, 98);
+    border-radius: 100px;
+    box-shadow: 3px 4px 9px #001432;
+    background-color: #000d21;
+    transition:0.5s;
+}
+.two    img:hover,
+.three  img:hover,
+.four   img:hover,
+.five   img:hover,
+.six    img:hover,
+.seven  img:hover,
+.eight  img:hover,
+.nine   img:hover,
+.ten    img:hover,
+.eleven img:hover,
+.twelve img:hover,
+.thirteen img:hover,
+.fourteen img:hover{
+    
+    border: 2px solid rgb(3, 6, 36);
+    box-shadow: 1px 4px 9px #7187b3;
+    width: 600px;
+}
+
+.name{
+    margin-top: 10%;
+    padding-left: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #013bb0;
+    text-shadow: 2.5px 2.5px 2px #02153cd3;
+    text-align: center;
+}
+.profile img{
+    margin-left: 30px;
+    border: 2px solid rgb(2, 21, 115);
+    border-radius: 70px
+}
+.profile img:hover{
+    content: url(../img/facebook-banner.png);
+    box-shadow: 5px 5px 20px rgb(1, 1, 54);
+    transition: 0.5s;
+}
